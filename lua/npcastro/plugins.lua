@@ -82,6 +82,9 @@ return packer.startup(function(use)
   use "JoosepAlviste/nvim-ts-context-commentstring" -- Uses treesitter to set the type of commentstring based on the location of the cursor. 
   use "p00f/nvim-ts-rainbow" -- different paranthesis colours acording to type
 
+  -- Git
+  use "lewis6991/gitsigns.nvim"
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
