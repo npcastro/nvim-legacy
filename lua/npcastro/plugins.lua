@@ -46,6 +46,8 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
   use "windwp/nvim-autopairs" -- Automatically close brackets
   use "numToStr/Comment.nvim" -- Commenting plugin
+  use "kyazdani42/nvim-tree.lua" -- file explorer
+  use "kyazdani42/nvim-web-devicons" -- optional icons for nvim-tree
 
   -- cmp
   use "hrsh7th/nvim-cmp" -- The completion plugin
