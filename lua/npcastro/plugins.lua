@@ -48,6 +48,8 @@ return packer.startup(function(use)
   use "numToStr/Comment.nvim" -- Commenting plugin
   use "kyazdani42/nvim-tree.lua" -- file explorer
   use "kyazdani42/nvim-web-devicons" -- optional icons for nvim-tree
+  use "akinsho/bufferline.nvim" -- Header that shows open buffers
+  use "moll/vim-bbye" -- Prevents colsing of windows when buffers are closed
 
   -- cmp
   use "hrsh7th/nvim-cmp" -- The completion plugin
