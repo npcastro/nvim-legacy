@@ -6,3 +6,4 @@ end
 
 require("npcastro.lsp.lsp-installer")
 require("npcastro.lsp.handlers").setup()
+require("npcastro.lsp.null-ls")
