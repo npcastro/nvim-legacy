@@ -43,13 +43,13 @@ return packer.startup(function(use)
   -- General
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
-  use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
+  use "nvim-lua/plenary.nvim" -- Useful lua functions used by lots of plugins
   use "windwp/nvim-autopairs" -- Automatically close brackets
   use "numToStr/Comment.nvim" -- Commenting plugin
   use "kyazdani42/nvim-tree.lua" -- file explorer
   use "kyazdani42/nvim-web-devicons" -- optional icons for nvim-tree
   use "akinsho/bufferline.nvim" -- Header that shows open buffers
-  use "moll/vim-bbye" -- Prevents colsing of windows when buffers are closed
+  use "moll/vim-bbye" -- Prevents closing of windows when buffers are closed
 
   -- cmp
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -90,6 +90,7 @@ return packer.startup(function(use)
 
   -- Git
   use "lewis6991/gitsigns.nvim"
+  use "tpope/vim-fugitive"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
