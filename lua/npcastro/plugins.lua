@@ -50,14 +50,15 @@ return packer.startup(function(use)
   use "kyazdani42/nvim-web-devicons" -- optional icons for nvim-tree
   use "akinsho/bufferline.nvim" -- Header that shows open buffers
   use "moll/vim-bbye" -- Prevents closing of windows when buffers are closed
+  use "lukas-reineke/indent-blankline.nvim" -- identation lines
 
   -- cmp
   use "hrsh7th/nvim-cmp" -- The completion plugin
   use "hrsh7th/cmp-buffer" -- buffer completions
   use "hrsh7th/cmp-path" -- path completions
   use "hrsh7th/cmp-cmdline" -- cmdline completions
-  use "hrsh7th/cmp-nvim-lsp" -- nvim lsp completions 
-  use "hrsh7th/cmp-nvim-lua" -- nvim lua completions 
+  use "hrsh7th/cmp-nvim-lsp" -- nvim lsp completions
+  use "hrsh7th/cmp-nvim-lua" -- nvim lua completions
 
   use "saadparwaiz1/cmp_luasnip" -- snippet completions
 
@@ -66,7 +67,7 @@ return packer.startup(function(use)
   use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
 
   -- Colorschemes
-  use "lunarvim/colorschemes" -- A bunch of colorschemes to try out 
+  use "lunarvim/colorschemes" -- A bunch of colorschemes to try out
   use 'folke/tokyonight.nvim'
   use {'dracula/vim', as = 'dracula'} -- Dark dracula theme
   use {'arcticicestudio/nord-vim', as = 'nord'} -- Blueish color pallete
@@ -85,7 +86,7 @@ return packer.startup(function(use)
     "nvim-treesitter/nvim-treesitter",
     run = ":TSUpdate",
   }
-  use "JoosepAlviste/nvim-ts-context-commentstring" -- Uses treesitter to set the type of commentstring based on the location of the cursor. 
+  use "JoosepAlviste/nvim-ts-context-commentstring" -- Uses treesitter to set the type of commentstring based on the location of the cursor.
   use "p00f/nvim-ts-rainbow" -- different paranthesis colours acording to type
 
   -- Git
