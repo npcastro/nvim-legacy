@@ -21,5 +21,6 @@ null_ls.setup({
 
     -- ruby
     formatting.rubocop,
+    diagnostics.rubocop,
   },
 })
